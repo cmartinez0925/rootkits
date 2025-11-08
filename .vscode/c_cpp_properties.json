@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/link/kernels/linux-6.1.143/include",
+                "/home/link/kernels/linux-6.1.143/arch/x86/include",
+                "/home/link/kernels/linux-6.1.143/arch/x86/include/generated",
+                "/home/link/kernels/linux-6.1.143/include/generated",
+                "/home/link/kernels/linux-6.1.143/include/uapi",
+                "/home/link/kernels/linux-6.1.143/arch/x86/include/uapi",
+                "/home/link/kernels/linux-6.1.143/include/generated/uapi"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
