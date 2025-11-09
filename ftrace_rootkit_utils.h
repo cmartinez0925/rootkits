@@ -55,7 +55,7 @@
 *   Author: Chris Martinez
 *   Version: 1.0
 *   Date: 8 Nov 2025
-*   Helper MACRO to create a ftrace_hook struct
+*   Helper MACRO to create a ftrace_hook struct for non-syscalls
 */
 #define HOOK_DIRECT(_name, _hook, _orig) { \
     .name = (_name),                       \

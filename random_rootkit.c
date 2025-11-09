@@ -86,6 +86,7 @@ static int __init random_rootkit_init(void) {
     }
     
     pr_info("random_rootkit: Loaded\n");
+    
     return 0;
 }
 
