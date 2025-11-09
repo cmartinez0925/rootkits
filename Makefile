@@ -1,6 +1,6 @@
 PWD				:= $(shell pwd)
 KDIR			:= /lib/modules/$(shell uname -r)/build
-obj-m			+= kill_rootkit.o
+obj-m			+= random_rootkit.o
 
 # ccflags-y		+= -DDEBUG
 
