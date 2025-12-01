@@ -1,2 +1,2 @@
 # rootkits
-Linux Kernel Roots via ftrace
+Linux Kernel Rootkits via ftrace
